@@ -1,0 +1,9 @@
+<div class="panel panel-default">
+    <div class="panel-body">
+        Items ({{items.length}} total):
+        <div ng-repeat="item in items">
+            <div>{{item.name}}</div>
+        </div>
+        <button ng-show="items.length" ng-click="RemoveAll()" class="btn btn-default">Remove all</button>
+    </div>
+</div>

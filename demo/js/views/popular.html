@@ -1,0 +1,9 @@
+<div class="panel panel-default">
+  <div class="panel-body" ng-repeat="item in items">
+    <div class="item">
+    	{{item.name}} {{item.price}}
+    	<button ng-hide="item.isAdded" type="button" class="btn btn-default" ng-click="AddToCart(item)">Buy</button>
+    	<button ng-show="item.isAdded" type="button" class="btn btn-default" ng-click="RemoveFromCart(item)">Remove</button>
+    </div>
+  </div>
+</div>
