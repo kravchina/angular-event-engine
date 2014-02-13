@@ -1,4 +1,4 @@
-angular-event-engine
+#Event engine for AngularJS
 ====================
 
 Event engine for angular
